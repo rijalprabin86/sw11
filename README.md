@@ -104,6 +104,11 @@ Feature Implementation: Key features like advanced search filters, real-time app
 <img width="1728" alt="Screenshot 2025-01-28 at 09 41 07" src="https://github.com/user-attachments/assets/2b033dd6-9b8e-4b55-8cfe-cd1eab88cb0d" />
 <img width="1728" alt="Screenshot 2025-01-28 at 09 40 59" src="https://github.com/user-attachments/assets/0f7ac9b2-2b8c-499f-b41d-4b837211b317" />
 
+
+##project Board
+<img width="1728" alt="Screenshot 2025-01-28 at 13 26 25" src="https://github.com/user-attachments/assets/07863804-da6c-45e0-afb9-3adc0f52a5d0" />
+
+
 ## Future Enhancements
 - To continuously improve the user experience and expand the functionality of Swift Jobs, several future enhancements are planned. These updates will aim to make the platform more efficient, engaging, and comprehensive for both job seekers and employers.
 

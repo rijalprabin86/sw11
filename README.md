@@ -1,131 +1,161 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Table of contents
+## Live website
+Link to live website: [Swift Jobs](https://swift-jobs-ebf1348ec5dd.herokuapp.com/)
 
-Welcome Prabin Rijal,
+## Purpose of the project
+Swift Jobs is a platform designed to help job seekers find opportunities that suit their skills and interests, wile offering employers an efficient way to post and manage job listings. This website serves as a central hub where job seekers can browse job listings, apply for positions, and even track their applications. Employers can post job opportunities, view applications, and manage their job listings through a user-friendly interface. Built using the Django web framework, Swift Jobs aims to make the job-hunting process seamless for both employers and applicants al
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
 
-## Gitpod Reminders
+## UX Design Process
+- **Link to User Stories in GitHub Projects:**
+  - https://github.com/rijalprabin86/sw11.git
+- **Wireframes:**
+  - Used Lucidchart to design a wireframe.
+  - ![Blank diagram](https://github.com/user-attachments/assets/31bc77a5-2b72-407e-b3d5-38ae75142248)
+![Blank diagram (1)](https://github.com/user-attachments/assets/39291f5e-7036-4c61-9092-c22e806b6cb5)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- **Design Rationale:**
+  - <img width="1704" alt="Screenshot 2025-01-28 at 12 09 54" src="https://github.com/user-attachments/assets/23977717-de56-4333-b1e1-247ba97aebe8" />
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## Key Features
+- Provide job seekers with a user-friendly platform to browse and apply for jobs
+-Offer employers an efficient way to post job opportunities and manage applications
+-Simplify the recruitment process with easy navigation and real-time updates
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
 
-A blue button should appear to click: _Make Public_,
+## Deployment
+- **Platform:** [Platform used, Heroku, Vs-code.]
+- 
+- **Verification and Validation:**
+- Used Code Institute's CI Python Linte to check Python files
+- using HTML and CSS validator
+- **Security Measures:**
+  - Use of environment variables for sensitive data.
+  - Ensured DEBUG mode is disabled in production.
 
-Another blue button should appear to click: _Open Browser_.
+## AI Implementation and Orchestration
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Use Cases and Reflections:
+-Swift Jobs is a platform designed to connect job seekers with employers efficiently and effectively, streamlining the hiring process for both parties. The platform caters to a diverse range of users and offers a dynamic experience through its intuitive interface and functionality.
+-Developing Swift Jobs was a rewarding and challenging experience. Below are some reflections on the project's development:
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+-User-Centric Design: By prioritizing intuitive navigation and functionality, the website meets the needs of both job seekers and employers effectively.
+Scalable Architecture: 
+1. The use of modern frameworks ensures that the platform is robust and scalable, capable of handling increased user activity.
+Responsive and Accessible Interface:
+2. The design ensures that the website performs well across different devices, improving user engagement and accessibility.
+Feature Implementation: Key features like advanced search filters, real-time application tracking, and profile management were successfully implemented and tested.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+  - **Code Creation:** 
+    - Reflection: Strategic use of AI allowed for rapid prototyping, with minor adjustments for alignment with project goals. 
+    - Examples: Reverse prompts for alternative code solutions and question-answer prompts for resolving specific challenges.
+  - **Debugging:** 
+    - Reflection: Key interventions included resolving logic errors and enhancing maintainability, with a focus on simplifying complex logic to make it accessible.
+  - **Performance and UX Optimization:** 
+    - Reflection: Minimal manual adjustments were needed to apply AI-driven improvements, which enhanced application speed and user experience for all users.
+  - **Automated Unit Testing:**
+    - Reflection: Adjustments were made to improve test coverage and ensure alignment with functionality. Prompts were used to generate inclusive test cases that were considered edge cases for accessibility.
 
-### Connecting your Mongo database
+- **Overall Impact:**
+  - AI tools streamlined repetitive tasks, enabling focus on high-level development.
+  - Efficiency gains included faster debugging, comprehensive testing, and improved code quality.
+  - Challenges included contextual adjustments to AI-generated outputs, which were resolved effectively, enhancing inclusivity.
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+## Testing Summary
+- **Manual Testing:**
+  - **Devices and Browsers Tested:** Desktop and mobile versions were checked and ran smoothly,
+  - **Features Tested:** Post job, Search job categories, log in and log out.
+  - **Results:** All of the features worked as expected.
+- **Automated Testing:**
+  - Tools Used: Django
+  - Features Covered: add job and apply for jobs
+ 
+ 
+## Supported screens and browsers
+**Screens
+- iPhone SE, 375px wide. Also looks good down to 300px according to the dev tools
+- iPad Mini, 768px wide
+- Nest Hub Max, 1280px wide
+- **Browsers
+- Chrome
+- Firefox
+- Safari
+- Edge
+- Opera
 
-------
+## Screenshots
+**Home page
+<img width="1728" alt="Screenshot 2025-01-28 at 12 44 37" src="https://github.com/user-attachments/assets/0d155a19-600b-47c2-8005-bfcdb7fb4408" />
+** login page
+<img width="1728" alt="Screenshot 2025-01-28 at 09 42 51" src="https://github.com/user-attachments/assets/fb0b2973-1f28-42f0-b9bf-3ecc93ff46df" />
+**sign up page
+<img width="1728" alt="Screenshot 2025-01-28 at 09 42 43" src="https://github.com/user-attachments/assets/d2a421ae-34e4-4176-813c-476f8b51df25" />
+<img width="1728" alt="Screenshot 2025-01-28 at 09 42 32" src="https://github.com/user-attachments/assets/f1be04d9-bfb0-4d59-8886-9c30365eba26" />
+<img width="1728" alt="Screenshot 2025-01-28 at 09 42 18" src="https://github.com/user-attachments/assets/2586dfc0-e144-49dd-941b-93db9d4dbe7c" />
+<img width="1728" alt="Screenshot 2025-01-28 at 09 42 10" src="https://github.com/user-attachments/assets/6f6890b0-1bb4-4c27-b102-d94fc5ba31d0" />
+<img width="1728" alt="Screenshot 2025-01-28 at 09 42 03" src="https://github.com/user-attachments/assets/dd642237-09b6-4521-a0e9-fd50aab4cdd1" />
+<img width="1728" alt="Screenshot 2025-01-28 at 09 41 54" src="https://github.com/user-attachments/assets/c4bd5472-f9b1-42cc-8416-c160762a14c0" />
+<img width="1728" alt="Screenshot 2025-01-28 at 09 41 44" src="https://github.com/user-attachments/assets/ba7f033e-11c9-4ae0-93b3-eb007a4aabca" />
+<img width="1728" alt="Screenshot 2025-01-28 at 09 41 28" src="https://github.com/user-attachments/assets/3a4eea51-26ea-460c-acc7-536fe733c567" />
+<img width="1728" alt="Screenshot 2025-01-28 at 09 41 07" src="https://github.com/user-attachments/assets/2b033dd6-9b8e-4b55-8cfe-cd1eab88cb0d" />
+<img width="1728" alt="Screenshot 2025-01-28 at 09 40 59" src="https://github.com/user-attachments/assets/0f7ac9b2-2b8c-499f-b41d-4b837211b317" />
 
-## Release History
+## Future Enhancements
+- To continuously improve the user experience and expand the functionality of Swift Jobs, several future enhancements are planned. These updates will aim to make the platform more efficient, engaging, and comprehensive for both job seekers and employers.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+1. AI-Powered Job and Candidate Recommendations
+Use machine learning algorithms to analyze user profiles, past activities, and preferences to recommend:
+Jobs for seekers that closely match their skills, location, and career aspirations.
+Candidates for employers based on job descriptions and requirements.
+2. Interview Scheduling and Calendar Integration
+Introduce a built-in interview scheduling tool that allows:
+Employers are to send interview requests with date and time options.
+Job seekers to confirm or reschedule interviews.
+Integration with Google Calendar, Outlook, or Apple Calendar for seamless reminders.
+3. Real-Time Messaging
+Add a secure messaging feature to enable direct communication between:
+Employers and job seekers for inquiries, updates, and interview discussions.
+Admin support and users for troubleshooting or platform assistance.
+4. Mobile Application Development
+Develop a dedicated mobile app for iOS and Android to enhance accessibility.
+Provide notifications for job updates, new applications, and employer messages.
+Allow offline resume creation and job application drafts.
+5. Enhanced Employer Branding Tools
+Enable employers to create customized company pages with:
+Photos, videos, and testimonials about their workplace culture.
+Highlighted job postings to attract top talent.
+6. Freelance and Remote Work Marketplace
+Expand the platform to include:
+Freelance projects with contract-based payment options.
+A focus on remote work opportunities for global hiring.
+7. Advanced Analytics for Employers
+Provide employers with insights and analytics on:
+Job posting performance, such as views and application rates.
+Candidate demographics and hiring trends.
+Tools to optimize job descriptions for better visibility.
+8. Gamification for Job Seekers
+Introduce gamified elements to keep job seekers engaged:
+Achievements for completing profile setups, applying to jobs, or gaining certifications.
+Leaderboards for active users or courses completed.
+9. Learning and Development Integration
+Partner with online education providers like Coursera, Udemy, or LinkedIn Learning to offer:
+Skill-building courses directly through the platform.
+Recommendations for courses based on job market demand.
+10. Advanced Security Features
+Implement two-factor authentication (2FA) for added account security.
+Regularly audit and enhance encryption and data protection protocols.
+11. Multilingual Support
+Add support for multiple languages to cater to a global user base, enabling:
+Job postings in different languages.
+User interfaces tailored to regional preferences.
+12. Video Resumes and Portfolios
+Allow job seekers to upload short video introductions or create interactive portfolios showcasing their skills and projects.
+13. Verification and Endorsements
+Introduce verified badges for job seekers and employers:
+Verification for candidates' educational qualifications and work experience.
+Employer verification to ensure job postings are legitimate.
+Enable peer endorsements where colleagues can vouch for users' skills.
